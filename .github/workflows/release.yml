@@ -29,11 +29,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
 
-      - name: Push release to 'release' branch
-        if: success()
+      - name: Checkout release branch
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git checkout -b release
-          git merge --no-ff main
-          git push origin release --force
+          git push origin release
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore(release): ${nextRelease.version}'
+          branch: release
+          base: main
+          title: 'Release ${nextRelease.version}'
+          body: 'This pull request contains the changes for the new release.'
