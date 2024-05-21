@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/jaysonpotter/semantic-release-test/compare/v1.3.0...v1.3.1) (2024-05-21)
+
+
+### Bug Fixes
+
+* **workflow:** Added branch to be released to instead so we can add protections to main and merge in on a schedule. ([c639b8f](https://github.com/jaysonpotter/semantic-release-test/commit/c639b8f341f76b9031ab26ca4df79f5355b9b3e6))
+* **readme:** Updating Readme content ([7b1fa4a](https://github.com/jaysonpotter/semantic-release-test/commit/7b1fa4ad8d4e33176e0b741945ad0b87ee9cb33b))
+
 # [1.3.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.2.0...v1.3.0) (2024-05-21)
 
 
