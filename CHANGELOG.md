@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.2.0...v1.3.0) (2024-05-21)
+
+
+### Features
+
+* **index:** Updating Page Title ([ec99602](https://github.com/jaysonpotter/semantic-release-test/commit/ec996027fc47afb3b9188453d8869a56c31e2232))
+
 # [1.2.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.1.0...v1.2.0) (2024-05-21)
 
 
