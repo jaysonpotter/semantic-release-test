@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.3.2...v1.4.0) (2024-05-21)
+
+
+### Features
+
+* **index:** Updated page title ([e31171a](https://github.com/jaysonpotter/semantic-release-test/commit/e31171a599c4bed9b332abf524c353002d478057))
+
 ## [1.3.2](https://github.com/jaysonpotter/semantic-release-test/compare/v1.3.1...v1.3.2) (2024-05-21)
 
 
