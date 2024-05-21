@@ -5,6 +5,10 @@ on:
     branches:
       - main  # or your default branch
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
