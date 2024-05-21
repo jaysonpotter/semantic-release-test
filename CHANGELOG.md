@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.1.0...v1.2.0) (2024-05-21)
+
+
+### Features
+
+* **index:** Updating Readme content ([93bb57a](https://github.com/jaysonpotter/semantic-release-test/commit/93bb57ab4748482b95641341aab97a5ad495a24b))
+
 # [1.1.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.0.0...v1.1.0) (2024-05-21)
 
 
