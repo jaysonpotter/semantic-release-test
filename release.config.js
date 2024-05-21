@@ -7,8 +7,8 @@ module.exports = {
         '@semantic-release/github',
         ['@semantic-release/git', {
             assets: ['CHANGELOG.md'],
-            branch: 'release'
-        }],
+            message: "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+        }]
     ],
     preset: 'angular',
     releaseRules: [
