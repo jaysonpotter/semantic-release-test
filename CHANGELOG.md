@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/jaysonpotter/semantic-release-test/compare/v1.4.6...v1.4.7) (2024-05-21)
+
+
+### Bug Fixes
+
+* **workflow:** Trying another way to merge changes into a release branch vs auto commiting to the main branch and releasing. ([7233a3e](https://github.com/jaysonpotter/semantic-release-test/commit/7233a3e86e2bc9e57bf1108d7d99467506420947))
+
 ## [1.4.6](https://github.com/jaysonpotter/semantic-release-test/compare/v1.4.5...v1.4.6) (2024-05-21)
 
 
