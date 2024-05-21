@@ -28,18 +28,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
-
-      - name: Checkout release branch
-        run: |
-          git checkout -B release
-          git push origin release
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore(release): ${nextRelease.version}'
-          branch: release
-          base: main
-          title: 'Release ${nextRelease.version}'
-          body: 'This pull request contains the changes for the new release.'
