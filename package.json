@@ -2,7 +2,6 @@
     "name": "semantic-release-test",
     "version": "1.0.0",
     "devDependencies": {
-        "@semantic-release/changelog": "6.0.3",
         "conventional-changelog-conventionalcommits": "8.0.0",
         "semantic-release": "23.1.1"
     },
