@@ -7,10 +7,10 @@ module.exports = {
         '@semantic-release/release-notes-generator',
         '@semantic-release/changelog',
         '@semantic-release/github',
-        ['@semantic-release/git', {
-            assets: ['CHANGELOG.md'],
-            message: "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
-        }]
+        // ['@semantic-release/git', {
+        //     assets: ['CHANGELOG.md'],
+        //     message: "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+        // }]
     ],
     preset: 'angular',
     releaseRules: [
