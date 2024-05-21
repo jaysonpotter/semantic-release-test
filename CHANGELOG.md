@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/jaysonpotter/semantic-release-test/compare/v1.4.1...v1.4.2) (2024-05-21)
+
+
+### Bug Fixes
+
+* **index:** Update page title. ([d9327ac](https://github.com/jaysonpotter/semantic-release-test/commit/d9327ace3f389846c544c7d7b69a55ea374f91f5))
+
 ## [1.4.1](https://github.com/jaysonpotter/semantic-release-test/compare/v1.4.0...v1.4.1) (2024-05-21)
 
 
