@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/jaysonpotter/semantic-release-test/compare/v1.4.0...v1.4.1) (2024-05-21)
+
+
+### Bug Fixes
+
+* **workflow:** Configuring workflow to fit needs. ([37336fb](https://github.com/jaysonpotter/semantic-release-test/commit/37336fbabeef1403c10e4a239c2adc9adaa0e26e))
+
 # [1.4.0](https://github.com/jaysonpotter/semantic-release-test/compare/v1.3.2...v1.4.0) (2024-05-21)
 
 
