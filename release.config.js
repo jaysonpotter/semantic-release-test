@@ -23,4 +23,5 @@ module.exports = {
     writerOpts: {
         commitsSort: ['subject', 'scope'],
     },
+    branch: 'release'
 };
